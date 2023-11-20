@@ -1,0 +1,36 @@
+body{
+    margin: 0 auto;
+}
+
+.container{
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,90,121,0.4431022408963585) 35%, rgba(0,212,255,1) 100%);
+}
+
+.application-form{
+    text-align: center;
+    justify-content: center;
+}
+.Employmentdetails{
+    border:2px solid white;
+    min-width: 200px;
+    text-align: left;
+}
+th,tr,td{
+    border:1px solid white;
+    width:200px;
+    height:100px;
+    text-align: left;
+   
+}
+.terms{
+    color:white;
+}
+
+.termsandcondition{
+    font-size: medium;
+    background-color: azure;
+}
+button{
+   justify-content: center;
+}
