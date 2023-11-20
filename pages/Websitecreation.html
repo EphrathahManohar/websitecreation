@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>application-form</title> <link rel="stylesheet" href="../styles/websitecreation.css">
+    <style>
+      body{
+         color:white;
+
+      }
+    </style>
+</head>
+<body>
+   <section class="container">
+   <h1 class="application-form"><ins>APPLICATION FORM</ins></h1>
+    <form action="/form/submit" method="get">
+        <label>First Name:</label>
+        <input type="text" name="first_name" placeholder="Enter your first name" />
+        <br/>
+        <br/>
+        <label>Last Name:</label>
+        <input type="text" name="last_name" placeholder="Enter your last name" />
+        <br/>
+        <br/>
+        <label>E-Mail:</label>
+        <input type="email" name="user_email" placeholder="Enter Your E-Mail:" />
+        <br/>
+        <br/>
+        </form>
+  
+       <br>
+       <br>
+       <fieldset>
+        <legend>Gender</legend>
+        <label>
+           <input type="radio" name="radio" id="radio1" />Male
+        </label>
+        <label>
+           <input type="radio" name="radio" id="radio2" />Female
+        </label>
+     </fieldset>
+  <br>
+  <br>
+  <br>
+
+        <fieldset>
+        <legend>Select all the programming languages you know</legend>
+        
+        <label>
+           <input type="checkbox" name="checkbox" id="checkbox" />Java
+        </label>
+        <br>
+        <br>
+        <label>
+           <input type="checkbox" name="checkbox2" id="checkbox2" />C
+        </label>
+        <br>
+        <br>
+        <label>
+           <input type="checkbox" name="checkbox3" id="checkbox3" />Python
+        </label>
+        <br>
+        <br>
+        <label >
+            <input type="checkbox" name="checkbox4" id="checkbox4" />Ruby
+         </label>  
+        </fieldset>
+   <br>
+   <br>
+
+     <form action="#">
+        <label>Education</label>
+        <select name="cars">
+          <option value="BE">Bachelor in Engineering</option>
+          <option value="MBBS">Bachelor in Medicine</option>
+          <option value="BA">Bachelor in arts</option>
+          <option value="Bsc" selected>Bachelor in science</option>
+        </select>
+     </form>
+     <br>
+     <br>
+     <table class="Employmentdetails" >
+      <thead>Previous Employment</thead>
+      <tr>
+         <td>Employer
+            <textarea id="story" name="story" rows="5" cols="33"> </textarea>
+         </td>
+         <td>Dates Employed
+            <textarea id="story" name="story" rows="5" cols="33"></textarea>
+          </td>
+          <td>Position
+             <textarea id="story" name="story" rows="5" cols="33"></textarea>     
+          </td>     
+       </tr>
+      
+      <tr>
+         <td>Job Duties
+            <textarea id="story" name="story" rows="5" cols="33"> </textarea>
+         </td>
+         <td>Reasons for leaving
+            <textarea id="story" name="story" rows="5" cols="33"> </textarea>
+         </td>
+         <td>Pay
+            <textarea id="story" name="story" rows="5" cols="33"> </textarea>
+         </td>
+      </tr>
+   </table>
+
+
+     <p>
+      <input type="checkbox" name="authorize"/>
+       I certify that the information provided in this application is true and complete. 
+       I acknowledge that false information is grounds for not hiring me or immediate termination. 
+       I authorize the verification of any information listed above.
+       <br>
+       <br>
+       <a href="termsandcondition.html" class="terms" target="_blank">Terms and conditions</a>
+     </p>
+     <br>
+     <br>
+
+     <a href="successful.html" alt=" sucessfully submitted " target="_blank">
+      <button  style="justify-content: center">Submit</button> </a>
+    
+           
+ </body>
+</section>
+</html>
